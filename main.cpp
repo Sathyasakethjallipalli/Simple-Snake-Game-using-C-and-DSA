@@ -13,7 +13,7 @@ int x, y, fruitX, fruitY, score;
 enum Direction { STOP = 0, LEFT, RIGHT, UP, DOWN };
 Direction dir;
 
-deque<pair<int, int>> snake;
+deque<pair<int, int> > snake;
 
 void Setup() {
     gameOver = false;
